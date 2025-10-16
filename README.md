@@ -9,9 +9,9 @@ Simple Pep9 Assembler written in java for cs 230
 ## Run
 - Recieves input from "Main.java"
 - Checks input versus command list
-- Runs valid commands via "Compiler.java"
+- Runs valid commands via "Asmblr.java"
 
-## Compiler
+## Asmblr
 - Recieves commands via "Run.java"
 - Loads valid file as commanded
 - Translates content of files by breaking each line into strings and examining the properties within substrings, looking for action identifiers ":", ",", "x"
